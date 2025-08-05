@@ -1,0 +1,60 @@
+@media (max-width: 768px) {
+  h2 {
+    font-size: 26px;
+    line-height: 32px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+  }
+
+  input {
+    width: 80%;
+    height: 60px;
+    font-size: 28px;
+    line-height: 36px;
+    padding-left: 15px;
+  }
+
+  .input-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  button {
+    width: 80%;
+    height: 60px;
+    font-size: 28px;
+    margin-top: 40px;
+  }
+
+  footer {
+    padding: 30px 20px;
+    font-size: 14px;
+  }
+
+  img {
+    max-width: 90%;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  input {
+    font-size: 24px;
+    height: 50px;
+  }
+
+  button {
+    font-size: 24px;
+    height: 55px;
+  }
+
+  footer {
+    font-size: 12px;
+  }
+}
